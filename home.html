@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clare Obuya | Computer Science Student</title>
+  <meta name="description" content="Portfolio and CV of Clare Obuya, a third-year Computer Science student at Kisii University.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Main">
+      <a class="brand" href="#home">Clare Obuya</a>
+      <button class="menu-btn" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <ul id="nav-links" class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a class="cta" href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-btn" aria-label="Switch to dark theme">Dark</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <h1>Clare Obuya</h1>
+        <p class="role">Computer Science student building software, with growing interest in AI/ML and cybersecurity.</p>
+        <p class="lead">I'm a third-year student at Kisii University based in Busia, Kenya. I build web projects and I'm looking for an attachment or internship where I can ship real work.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">View projects</a>
+          <a class="btn disabled" aria-disabled="true">Download CV (coming soon)</a>
+          <a class="btn" href="#contact">Contact me</a>
+        </div>
+      </div>
+      <div class="photo"><img src="photo.jpeg" alt="Illustrated portrait of Clare Obuya wearing black glasses and a blue denim jacket" width="480" height="480"></div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <h2>About me</h2>
+      <div class="content">
+        <p>I study Computer Science at Kisii University. I enjoy turning ideas into working software, and I'm exploring machine learning and cybersecurity alongside web development.</p>
+        <p>Before university work took over, I taught English, Science and Technology for a term at Youngster Academy. It taught me to explain technical ideas clearly to people who are new to them.</p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="content">
+        <div class="skill-group">
+          <h3>Programming</h3>
+          <ul class="skill-list">
+          <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="" width="40" height="40"><span>Python</span></li>
+          <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="" width="40" height="40"><span>Java</span></li>
+          <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" alt="" width="40" height="40"><span>C</span></li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Web</h3>
+          <ul class="skill-list">
+          <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="" width="40" height="40"><span>HTML</span></li>
+          <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="" width="40" height="40"><span>CSS</span></li>
+          <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="" width="40" height="40"><span>JavaScript</span></li>
+          <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="" width="40" height="40"><span>Node.js</span></li>
+          <li><svg class="json-icon" viewBox="0 0 40 40" width="40" height="40" aria-hidden="true"><rect width="40" height="40" rx="9" fill="currentColor" opacity=".14"/><text x="20" y="27" text-anchor="middle" font-size="21" font-weight="700" font-family="ui-monospace, Menlo, Consolas, monospace" fill="currentColor">{ }</text></svg><span>JSON</span></li>
+          <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" alt="" width="40" height="40"><span>Bootstrap</span></li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Tools</h3>
+          <ul class="skill-list">
+          <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="" width="40" height="40"><span>Git</span></li>
+          <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="" width="40" height="40" class="icon-invert"><span>GitHub</span></li>
+          <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="" width="40" height="40"><span>VS Code</span></li>
+          <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pycharm/pycharm-original.svg" alt="" width="40" height="40"><span>PyCharm</span></li>
+          </ul>
+        </div>
+        <p class="muted next">Learning next: ML libraries, networking and security tools.</p>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="content cards">
+        <article class="card">
+          <h3>Student Voting System</h3>
+          <p>A voter registration website with a responsive interface that works on phones and laptops.</p>
+          <ul class="tags" aria-label="Technologies"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+          <div class="card-links">
+            <a href="#" rel="noopener">GitHub</a>
+            <a href="#" rel="noopener">Live demo</a>
+          </div>
+        </article>
+        <article class="card placeholder">
+          <h3>Project 2</h3>
+          <p>Add a title, a one-line description of the problem it solves, the tech stack and two links.</p>
+        </article>
+        <article class="card placeholder">
+          <h3>Project 3</h3>
+          <p>An AI/ML or security project would show range here.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <div class="content">
+        <div class="entry">
+          <h3>BSc Computer Science, Kisii University</h3>
+          <p>Third year. <a href="#">Download my transcripts</a></p>
+        </div>
+        <div class="entry">
+          <h3>KCSE and KCPE</h3>
+          <p>Results available on request.</p>
+        </div>
+        <div class="entry">
+          <h3>Teacher, Youngster Academy</h3>
+          <p>One term teaching English, Science and Technology.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications, achievements, languages -->
+    <section id="more" class="section">
+      <h2>Certifications and achievements</h2>
+      <div class="content">
+        <p class="muted">Add courses, hackathons and awards here as you earn them.</p>
+        <h3 class="sub">Languages</h3>
+        <p>English, Kiswahili</p>
+      </div>
+    </section>
+
+    <!-- Reach out -->
+    <section id="contact" class="section">
+      <h2>Reach out to me</h2>
+      <div class="content">
+        <ul class="contact-list">
+          <li><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg><div><span>Email</span><a href="mailto:clareobuya6@gmail.com">clareobuya6@gmail.com</a></div></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.25 1.02l-2.2 2.2z"/></svg><div><span>Phone</span><a href="tel:+254793559490">0793 559 490</a></div></li>
+          <li><img src="https://cdn.simpleicons.org/whatsapp/25D366" alt="" width="36" height="36"><div><span>WhatsApp</span><a href="https://wa.me/254793559490" target="_blank" rel="noopener">0793 559 490</a></div></li>
+          <li><img src="https://cdn.simpleicons.org/tiktok/000000" class="icon-invert" alt="" width="36" height="36"><div><span>TikTok</span><a href="https://www.tiktok.com/@megamind_14" target="_blank" rel="noopener">@megamind_14</a></div></li>
+          <li><img src="https://cdn.simpleicons.org/facebook/0866FF" alt="" width="36" height="36"><div><span>Facebook</span><a href="https://www.facebook.com/search/top?q=lara%20slater" target="_blank" rel="noopener">lara slater</a></div></li>
+          <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" alt="" width="36" height="36"><div><span>LinkedIn</span><a href="#" rel="noopener">Add your profile link</a></div></li>
+          <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" class="icon-invert" alt="" width="36" height="36"><div><span>GitHub</span><a href="#" rel="noopener">Add your profile link</a></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact form -->
+    <section id="message-form" class="section">
+      <h2>Send me a message</h2>
+      <div class="content">
+        <form class="form" action="mailto:clareobuya6@gmail.com" method="post" enctype="text/plain">
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" required autocomplete="name">
+          <label for="email">Your email</label>
+          <input id="email" name="email" type="email" required autocomplete="email">
+          <label for="subject">Subject</label>
+          <input id="subject" name="subject" type="text">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+          <button class="btn primary" type="submit">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year">2026</span> Clare Obuya</p>
+    <a href="#home">Back to top</a>
+  </footer>
+
+  <script>
+    // Mobile menu
+    const menuBtn = document.querySelector('.menu-btn');
+    const links = document.getElementById('nav-links');
+    menuBtn.addEventListener('click', () => {
+      const open = links.classList.toggle('open');
+      menuBtn.setAttribute('aria-expanded', open);
+    });
+    links.addEventListener('click', e => {
+      if (e.target.tagName === 'A') {
+        links.classList.remove('open');
+        menuBtn.setAttribute('aria-expanded', 'false');
+      }
+    });
+
+    // Theme toggle (remembers choice when storage is available)
+    const root = document.documentElement;
+    const themeBtn = document.querySelector('.theme-btn');
+    function setTheme(t) {
+      root.dataset.theme = t;
+      themeBtn.textContent = t === 'dark' ? 'Light' : 'Dark';
+      themeBtn.setAttribute('aria-label', 'Switch to ' + (t === 'dark' ? 'light' : 'dark') + ' theme');
+    }
+    let saved = null;
+    try { saved = localStorage.getItem('theme'); } catch (e) {}
+    setTheme(saved || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
+    themeBtn.addEventListener('click', () => {
+      const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
+      setTheme(next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
+    });
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
